@@ -1,4 +1,4 @@
-What is wrapper class in java?
+7. What is wrapper class in java?
 
 Wrapper class provides mechanism to convert primitives to objects and vice versa
 
@@ -11,4 +11,11 @@ Unboxing object to primitive:
   Integer a=new Integer(3);    
   int i=a.intValue();//converting Integer to int  
   int j=a;//unboxing, now compiler will write a.intValue() internally    
+-----------------------------------------------------------------------------------------------------------------------------
+8. Why do we need Wrapper classes in Java?
 
+Wrapper classes are used instead of primitive types when an Object is expected. 
+In Collections for example, an ArrayList may contain instances of any subclass of Object, 
+but because primitive types are not Objects, they could not be contained in the ArrayList.
+
+-----------------------------------------------------------------------------------------------------------------------------
