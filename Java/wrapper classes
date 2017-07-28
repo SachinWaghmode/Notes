@@ -19,3 +19,7 @@ In Collections for example, an ArrayList may contain instances of any subclass o
 but because primitive types are not Objects, they could not be contained in the ArrayList.
 
 -----------------------------------------------------------------------------------------------------------------------------
+9.What are the different ways of creating Wrapper class instances?
+
+We can create Wrapper objects using any of the two ways.
+one by using constructor of Wrapper classes, and other by using valueOf() methods.
