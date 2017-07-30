@@ -20,6 +20,49 @@ but because primitive types are not Objects, they could not be contained in the 
 
 -----------------------------------------------------------------------------------------------------------------------------
 9.What are the different ways of creating Wrapper class instances?
+10 . What are differences in the two ways of creating Wrapper classes?
 
 We can create Wrapper objects using any of the two ways.
 one by using constructor of Wrapper classes, and other by using valueOf() methods.
+Using Wrapper constructor
+
+All wrapper classes provide two constructors except Character. One which takes its corresponding primitive types, and other which takes String representation of the type.
+
+Integer i1 = new Integer(10);
+Integer i2 = new Integer("10");
+ 
+//Or
+ 
+Float f1 = new Float(0.25f);
+Float f2 = new Float("0.25");
+The Character class provides only one constructor, which takes a char as an argument.
+
+Character c1 = new Character('g');
+In case of Boolean wrapper, String representation of lowercase letter “true” is considered as true and anything else is considered as “false”.
+
+Boolean b1 = new Boolean(true);
+Boolean b2 = new Boolean("True"); //is considered as false.
+The  valueOf() methods
+
+Two valueOf() methods provided in all of the wrapper classes gives you another way to create wrapper objects.
+
+Double d1 = Double.valueOf(3.142);
+//Or
+Integer i1 = Integer.valueOf("101011", 2);
+The second argument represents, int radix, which indicates the base in which first argument is represented.
+-----------------------------------------------------------------------------------------------------------------------------
+
+11 . What is auto boxing? 
+12 . What are the advantages of auto boxing? 
+
+Less code to write.
+The code looks cleaner.
+The best method for conversion is automatically chosen, e.g. Integer.valueOf(int) is used instead of new Integer(int)
+
+Disadvantages of autoboxing?
+1. Can lead to unexpected behaviour
+2. Hiding- It hides the object creation, which can lead to a big performance loss.
+3. Overloading
+4. NullPointerException
+------------------------------------------------------------------------------------------------------------------------------
+
