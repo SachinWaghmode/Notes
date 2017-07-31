@@ -65,4 +65,21 @@ Disadvantages of autoboxing?
 3. Overloading
 4. NullPointerException
 ------------------------------------------------------------------------------------------------------------------------------
+13 . What is casting? 
+taking an Object of one particular type and “turning it into” another Object type. 
 
+14 . What is implicit casting? 
+byte-->short--->int---->long---->float---->double
+
+15 . What is explicit casting?
+double---->float---->long---->int----->short---->byte
+
+In Java, type casting is classified into two types,
+
+Widening Casting(Implicit)
+widening-type-conversion
+
+Narrowing Casting(Explicitly done)
+narrowing-type-conversion
+
+------------------------------------------------------------------------------------------------------------------------------
