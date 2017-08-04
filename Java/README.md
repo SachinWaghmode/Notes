@@ -18,3 +18,12 @@
 13 . What is casting?
 14 . What is implicit casting?
 15 . What is explicit casting?
+
+# Strings :
+16 . Are all String’s immutable?
+17 . Where are String values stored in memory?
+18 . Why should you be careful about String concatenation(+) operator in loops?
+19 . How do you solve above problem?
+20 . What are differences between String and StringBuffer?
+21 . What are differences between StringBuilder and StringBuffer?
+22 . Can you give examples of different utility methods in String class?
