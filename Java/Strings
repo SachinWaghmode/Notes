@@ -1,0 +1,18 @@
+ 16 . Are all String’s immutable? 
+ 17 . Where are String values stored in memory? 
+ 
+ The string is Immutable in Java because String objects are cached in String pool. 
+ Since cached String literals are shared between multiple clients there is always a risk,
+ where one client's action would affect all another client.
+ 
+ 18 . Why should you be careful about String concatenation(+) operator in loops? 
+ 19 . How do you solve above problem? 
+ 
+ 20 . What are differences between String and StringBuffer? 
+ 21 . What are differences between StringBuilder and StringBuffer?
+ 
+ StringBuffer and StringBuilder have the same methods with one difference and that's of synchronization. 
+ StringBuffer is synchronized( which means it is thread safe and hence you can use it when you implement threads for 
+ your methods) 
+ whereas StringBuilder is not synchronized( which implies it isn't thread safe).
+ 
