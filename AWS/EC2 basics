@@ -1,0 +1,45 @@
+Amazon web services:
+ It is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow.
+
+What is Amazon EC2: Amazon Elastic Compute cloud
+provides scalable computing capacity in the Amazon Web Services (AWS) cloud. 
+
+•	Virtual computing environments, known as instances
+•	Preconfigured templates for your instances, known as Amazon Machine Images (AMIs), 
+•	Virtual networks you can create that are logically isolated from the rest of the AWS cloud, and that you can optionally connect to your own network, known as virtual private clouds (VPCs)
+
+Basic requirements to setup EC2 instance:
+Basics
+Instances and AMIs
+Regions and Availability Zones
+Instance Types
+Tags
+Networking and Security
+Amazon EC2 Key Pairs
+Security Groups
+Elastic IP Addresses
+Amazon EC2 and Amazon VPC
+Storage
+Amazon EBS
+Instance Store
+
+
+
+Elastic IP Addresses. An Elastic IP address is a static IPv4 address designed for dynamic cloud computing. An Elastic IP address is associated with your AWS account. With an Elastic IP address, you can mask the failure of an instance or software by rapidly remapping the address to another instance in your account.
+
+Amazon EC2 uses public–key cryptography to encrypt and decrypt login information. 
+Public–key :  to encrypt a piece of data, such as a password, 
+Private Key: then the recipient uses the private key to decrypt the data. 
+
+What is PEM:
+PEM or Privacy Enhanced Mail is a Base64 encoded DER certificate. PEMcertificates are frequently used for web servers as they can easily be translated into readable data using a simple text editor. Generally when a PEM encoded file is opened in a text editor, it contains very distinct headers and footers
+Launch instance: create and configure yoyr instance features
+
+•	Choose Amazon Machine Image: 
+An Amazon Machine Image (AMI) is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud ("EC2"). It serves as the basic unit of deployment for services delivered using EC2.
+
+•	Choose Instance type: t2.micro(bcz it is free)
+Various configurations of CPU, memory, storage, and networking capacity for your instances, known as instance types
+
+•	Launch Instance and connect using the key. 
+
